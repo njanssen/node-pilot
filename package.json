@@ -1,0 +1,25 @@
+{
+  "name": "@vliegwerk/pilot",
+  "version": "1.0.0",
+  "description": "Node.js interface for Pilot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/njanssen/node-pilot.git"
+  },
+  "keywords": [
+    "pilot",
+    "synth",
+    "hundredrabbits",
+    "music"
+  ],
+  "author": "Niels Janssen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/njanssen/node-pilot/issues"
+  },
+  "homepage": "https://github.com/njanssen/node-pilot#readme"
+}
