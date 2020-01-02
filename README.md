@@ -6,10 +6,11 @@ Pilot is an open source UDP synthesizer which is typically used to produce sound
 ## What does this library do?
 
 This library supports:
-- Sending commands to Pilot over UDP (e.g. `BPM125;A5CF8`)
-- Sending specific commands such as notes to Pilot using convenience functions 
-- Generating commands such as notes with helper functions
-- Generating command arguments (e.g. scale a float to a value between `0` and `F`)
+
+-   Sending commands to Pilot over UDP (e.g. `BPM125;A5CF8`)
+-   Sending specific commands such as notes to Pilot using convenience functions
+-   Generating commands such as notes with helper functions
+-   Generating command arguments (e.g. scale a float to a value between `0` and `F`)
 
 ## Installation
 
@@ -18,6 +19,7 @@ npm install @vliegwerk/pilot --save
 ```
 
 ## Basic usage
+
 The following code can be used to start sending UDP messages to Pilot running on your computer:
 
 ```
@@ -52,6 +54,7 @@ const pilot = new Pilot({
 
 ## Extras
 
-- Install Pilot by following the instructions found in the README of its [GitHub repository](https://github.com/hundredrabbits/Pilot#readme) or download a pre-built version of the Electron app [here](https://hundredrabbits.itch.io/pilot).
-- See the [License](LICENSE) file for license rights and limitations (MIT).
-- Pull Requests are welcome!
+-   Install Pilot by following the instructions found in the README of its [GitHub repository](https://github.com/hundredrabbits/Pilot#readme) or download a pre-built version of the Electron app [here](https://hundredrabbits.itch.io/pilot).
+-   For a basic project using this library, see [tidal-pilot](https://github.com/njanssen/tidal-pilot).
+-   See the [License](LICENSE) file for license rights and limitations (MIT).
+-   Pull Requests are welcome!
